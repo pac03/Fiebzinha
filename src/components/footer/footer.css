@@ -1,0 +1,26 @@
+
+.footer{
+    text-align:center;
+}
+.footer .share{
+    padding: 1rem 0;
+}
+.footer .share a{
+    color: var(--purple);
+    font-size: 3.4rem;
+    margin: 1rem;
+}
+.footer .share a:hover{
+    color: var(--blue);
+}
+
+.footer .credit{
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--purple);
+}
+
+.footer .credit span{
+    color: var(--blue);
+}
