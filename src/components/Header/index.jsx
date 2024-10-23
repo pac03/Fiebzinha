@@ -6,16 +6,15 @@ import './header.css'
 
 
 export default function Header(){
-    
+
     return(
         <header className="header">
-            <Link className="logo" to=''>Fieb Store</Link>
+            <Link className="logo" to=''>Fieb Store</Link> 
 
             <nav className="navbar">
                     
-                <Link className='home2' to='/'>home</Link>
-                <Link className='carrin' to='/'><img src={carrinho} alt='Imagem do carrinho' className='car'/></Link>
-                <Link className='login' to='/login'><img src={user} alt='Imagem de Login' className='userzin'/></Link>
+                <Link to='/carrinho' className='carrin'><img src={carrinho} alt='Imagem do carrinho' className='car'/></Link>
+                <Link to='/login' className='login'><img src={user} alt='Imagem de Login' className='userzin'/></Link>
             </nav>
          </header>
     )

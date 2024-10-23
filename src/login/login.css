@@ -45,6 +45,12 @@ a{
 text-decoration: none;
 }
 
+.alert_error{
+  color: white;
+  font-size: 12px;
+  padding-block-end: 15px;
+}
+
 .imglogin{
 max-width: 67%;
 margin-left: 8rem;

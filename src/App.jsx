@@ -1,5 +1,5 @@
-import RoutesApp from "./routes";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import RouteSistem from "./routes"
+import { BrowserRouter} from "react-router-dom";
 //import './App.css'
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
 
       <BrowserRouter>
-        <RoutesApp />
+        <RouteSistem />
       </BrowserRouter>
     </div>
 

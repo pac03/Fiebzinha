@@ -9,6 +9,7 @@ import './home.css'
 
 
 export default function Home(){
+
     return(
         <div className='divpai'>
             
@@ -18,7 +19,7 @@ export default function Home(){
           </div>
  
           <div className="content">
-            <h3>Olá, Alunos!</h3>
+            <h3>Olá, Alunos! </h3>
             <p>Bem-vindos à Fieb Store, onde sua experiência educacional é aprimorada
               <br />Estamos abertos durante todo o período escolar, incluindo os momentos de entrada e intervalo. Visite-nos e aproveite nossos serviços sempre que precisar!
             </p>
@@ -35,7 +36,7 @@ export default function Home(){
               <h3>Delícias</h3>
               <p>Venha desfrutar de uma experiência deliciosa durante o intervalo escolar!</p>
  
-             <a  className="btn">Eu Quero!</a>
+             <a  className="btn"><Link to='/login'>Eu Quero!</Link></a>
             </div>
  
             <div className="box">
@@ -43,7 +44,7 @@ export default function Home(){
               <h3>Materiais</h3>
               <p>Tenha todos os materiais escolares essenciais sempre à mão!</p>
  
-              <a  className="btn">Eu Quero!</a>
+              <a  className="btn"><Link to='/login'>Eu Quero!</Link></a>
             </div>
  
             <div className="box">
@@ -51,7 +52,7 @@ export default function Home(){
               <h3>Uniformes</h3>
               <p>Uniformes da FIEB com preço único e qualidade garantida para todos!</p>
  
-              <a href="/Bebidas.html" className="btn">Eu Quero!</a>
+              <a className="btn"><Link to='/login'>Eu Quero!</Link></a>
             </div>
  
             <div className="box">
@@ -59,7 +60,7 @@ export default function Home(){
               <h3>Achados e Perdidos</h3>
               <p>Recupere itens perdidos; veja nossa lista de objetos encontrados!</p>
  
-              <a  className="btn"><Link to='/achados'>Encontrar</Link></a>
+              <a  className="btn"><Link to='/login'>Encontrar</Link></a>
             </div>
           </div>
         </section>
@@ -74,7 +75,7 @@ export default function Home(){
             <div className="content">
               <p>Venha dar uma espiada e descubra o que está ansioso para ser adquirido. Seja para uma necessidade do dia a dia ou um mimo especial, nosso carrinho está repleto de opções que vão te surpreender e encantar!</p>
              
-              <a  className="btn">Ver</a>
+              <a  className="btn"><Link to='/login'>Ver</Link></a>
             </div>
           </div>
         </section>

@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState } from 'react'
 import {Link} from "react-router-dom"
-import './cadastro.css';
-import api from "../service/api";
+import './cadastro.css'
+import api from "../service/api"
 import register from'../imagens/img/register.png'
 
 
@@ -13,7 +13,7 @@ const cadastro = () => {
     const handleSubmit = async () =>{
       try{
        
-       const response = await api.post("users/aluno", {email: email, senha: senha, tipoUsuario: "Aluno"})
+       const response = await api.post("users/cliente", {email: email, senha: senha, tipoUsuario: "Cliente"})
           console.log (response.data)
       } catch(error){
         console.log(error)
